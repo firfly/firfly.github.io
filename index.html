@@ -341,164 +341,132 @@
       
         
           
-            <h2 id="样本和总体">样本和总体</h2>
-<p>研究中实际观测或调查的一部分个体称为样本,研究对象的全部，称为总体。</p>
-<h3 id="总体均值">总体均值</h3>
-<p><span class="math display">\[
-  \mu= \frac {\sum_{i=1}^N {x_i}}{N}
-\]</span></p>
+            <h2 id="样本和总体"><a href="#样本和总体" class="headerlink" title="样本和总体"></a>样本和总体</h2><p>研究中实际观测或调查的一部分个体称为样本,研究对象的全部，称为总体。</p>
+<h3 id="总体均值"><a href="#总体均值" class="headerlink" title="总体均值"></a>总体均值</h3><p>$$<br>  \mu= \frac {\sum_{i=1}^N {x_i}}{N}<br>$$</p>
 <blockquote>
-<p><em>其中,<span class="math inline">\(\mu\)</span>读法为(miu)</em></p>
+<p><em>其中,$\mu$读法为(miu)</em></p>
 </blockquote>
-<h3 id="样本均值">样本均值</h3>
-<p><span class="math display">\[
-  \bar{X}= \frac {\sum_{i=1}^n {x_i}}{n}
-\]</span></p>
+<h3 id="样本均值"><a href="#样本均值" class="headerlink" title="样本均值"></a>样本均值</h3><p>$$<br>  \bar{X}= \frac {\sum_{i=1}^n {x_i}}{n}<br>$$</p>
 <hr>
-<h2 id="方差">方差</h2>
-<p>方差是一种离中趋势衡量，用来表示数据和均值之间的偏离程度。</p>
-<h3 id="总体方差">总体方差</h3>
-<p><span class="math display">\[
- \sigma^2= \frac {\sum_{i=1}^N {(x_i-\mu)}^2}{N}
-\]</span></p>
+<h2 id="方差"><a href="#方差" class="headerlink" title="方差"></a>方差</h2><p>方差是一种离中趋势衡量，用来表示数据和均值之间的偏离程度。</p>
+<h3 id="总体方差"><a href="#总体方差" class="headerlink" title="总体方差"></a>总体方差</h3><p>$$<br> \sigma^2= \frac {\sum_{i=1}^N {(x_i-\mu)}^2}{N}<br>$$</p>
 <blockquote>
-<p>其中,<span class="math inline">\(\sigma\)</span>是小写的<span class="math inline">\(\Sigma\)</span></p>
+<p>其中,$\sigma$是小写的$\Sigma$</p>
 </blockquote>
 <table>
 <thead>
-<tr class="header">
+<tr>
 <th>原始数据</th>
 <th>2,2,3,3</th>
 <th>0,0,5,5</th>
 </tr>
 </thead>
 <tbody>
-<tr class="odd">
+<tr>
 <td>均值</td>
-<td><span class="math inline">\(\frac {2+2+3+3}{4}=2.5\)</span></td>
-<td><span class="math inline">\(\frac {0+0+5+5}{4}=2.5\)</span></td>
+<td>$\frac {2+2+3+3}{4}=2.5$</td>
+<td>$\frac {0+0+5+5}{4}=2.5$ </td>
 </tr>
 </tbody>
 </table>
 <p>其中第一种数据集：</p>
 <table>
 <thead>
-<tr class="header">
-<th style="text-align: center;">i</th>
-<th style="text-align: center;"><span class="math inline">\(x_i\)</span></th>
-<th style="text-align: center;"><span class="math inline">\(\mu\)</span></th>
-<th style="text-align: center;"><span class="math inline">\(x_i-\mu\)</span></th>
-<th style="text-align: center;"><span class="math inline">\((x_i-\mu)^2\)</span></th>
+<tr>
+<th style="text-align:center">i</th>
+<th style="text-align:center">$x_i$</th>
+<th style="text-align:center">$\mu$</th>
+<th style="text-align:center">$x_i-\mu$</th>
+<th style="text-align:center">$(x_i-\mu)^2$</th>
 </tr>
 </thead>
 <tbody>
-<tr class="odd">
-<td style="text-align: center;">1</td>
-<td style="text-align: center;">2</td>
-<td style="text-align: center;">2.5</td>
-<td style="text-align: center;">-0.5</td>
-<td style="text-align: center;">0.25</td>
+<tr>
+<td style="text-align:center">1</td>
+<td style="text-align:center">2</td>
+<td style="text-align:center">2.5</td>
+<td style="text-align:center">-0.5</td>
+<td style="text-align:center">0.25</td>
 </tr>
-<tr class="even">
-<td style="text-align: center;">2</td>
-<td style="text-align: center;">2</td>
-<td style="text-align: center;">2.5</td>
-<td style="text-align: center;">-0.5</td>
-<td style="text-align: center;">0.25</td>
+<tr>
+<td style="text-align:center">2</td>
+<td style="text-align:center">2</td>
+<td style="text-align:center">2.5</td>
+<td style="text-align:center">-0.5</td>
+<td style="text-align:center">0.25</td>
 </tr>
-<tr class="odd">
-<td style="text-align: center;">3</td>
-<td style="text-align: center;">3</td>
-<td style="text-align: center;">2.5</td>
-<td style="text-align: center;">-0.5</td>
-<td style="text-align: center;">0.25</td>
+<tr>
+<td style="text-align:center">3</td>
+<td style="text-align:center">3</td>
+<td style="text-align:center">2.5</td>
+<td style="text-align:center">-0.5</td>
+<td style="text-align:center">0.25</td>
 </tr>
-<tr class="even">
-<td style="text-align: center;">4</td>
-<td style="text-align: center;">3</td>
-<td style="text-align: center;">2.5</td>
-<td style="text-align: center;">-0.5</td>
-<td style="text-align: center;">0.25</td>
+<tr>
+<td style="text-align:center">4</td>
+<td style="text-align:center">3</td>
+<td style="text-align:center">2.5</td>
+<td style="text-align:center">-0.5</td>
+<td style="text-align:center">0.25</td>
 </tr>
-<tr class="odd">
-<td style="text-align: center;">方差<span class="math inline">\(\sigma^2\)</span>为:</td>
-<td style="text-align: center;"><span class="math inline">\(\frac {0.25+0.25+0.25+0.25}{4}=\color{red}{0.25}\)</span></td>
-<td style="text-align: center;"></td>
-<td style="text-align: center;"></td>
-<td style="text-align: center;"></td>
+<tr>
+<td style="text-align:center">方差$\sigma^2$为:</td>
+<td style="text-align:center">$\frac {0.25+0.25+0.25+0.25}{4}=\color{red}{0.25}$</td>
 </tr>
 </tbody>
 </table>
 <p>第二种数据集：</p>
 <table>
 <thead>
-<tr class="header">
-<th style="text-align: center;">i</th>
-<th style="text-align: center;"><span class="math inline">\(x_i\)</span></th>
-<th style="text-align: center;"><span class="math inline">\(\mu\)</span></th>
-<th style="text-align: center;"><span class="math inline">\(x_i-\mu\)</span></th>
-<th style="text-align: center;"><span class="math inline">\((x_i-\mu)^2\)</span></th>
+<tr>
+<th style="text-align:center">i</th>
+<th style="text-align:center">$x_i$</th>
+<th style="text-align:center">$\mu$</th>
+<th style="text-align:center">$x_i-\mu$</th>
+<th style="text-align:center">$(x_i-\mu)^2$</th>
 </tr>
 </thead>
 <tbody>
-<tr class="odd">
-<td style="text-align: center;">1</td>
-<td style="text-align: center;">0</td>
-<td style="text-align: center;">2.5</td>
-<td style="text-align: center;">-2.5</td>
-<td style="text-align: center;">6.25</td>
+<tr>
+<td style="text-align:center">1</td>
+<td style="text-align:center">0</td>
+<td style="text-align:center">2.5</td>
+<td style="text-align:center">-2.5</td>
+<td style="text-align:center">6.25</td>
 </tr>
-<tr class="even">
-<td style="text-align: center;">2</td>
-<td style="text-align: center;">0</td>
-<td style="text-align: center;">2.5</td>
-<td style="text-align: center;">-2.5</td>
-<td style="text-align: center;">6.25</td>
+<tr>
+<td style="text-align:center">2</td>
+<td style="text-align:center">0</td>
+<td style="text-align:center">2.5</td>
+<td style="text-align:center">-2.5</td>
+<td style="text-align:center">6.25</td>
 </tr>
-<tr class="odd">
-<td style="text-align: center;">3</td>
-<td style="text-align: center;">5</td>
-<td style="text-align: center;">2.5</td>
-<td style="text-align: center;">2.5</td>
-<td style="text-align: center;">6.25</td>
+<tr>
+<td style="text-align:center">3</td>
+<td style="text-align:center">5</td>
+<td style="text-align:center">2.5</td>
+<td style="text-align:center">2.5</td>
+<td style="text-align:center">6.25</td>
 </tr>
-<tr class="even">
-<td style="text-align: center;">4</td>
-<td style="text-align: center;">5</td>
-<td style="text-align: center;">2.5</td>
-<td style="text-align: center;">2.5</td>
-<td style="text-align: center;">6.25</td>
+<tr>
+<td style="text-align:center">4</td>
+<td style="text-align:center">5</td>
+<td style="text-align:center">2.5</td>
+<td style="text-align:center">2.5</td>
+<td style="text-align:center">6.25</td>
 </tr>
-<tr class="odd">
-<td style="text-align: center;">方差<span class="math inline">\(\sigma^2\)</span>为:</td>
-<td style="text-align: center;"><span class="math inline">\(\frac {6.25+6.25+6.25+6.25}{4}=\color{red}{6.25}\)</span></td>
-<td style="text-align: center;"></td>
-<td style="text-align: center;"></td>
-<td style="text-align: center;"></td>
+<tr>
+<td style="text-align:center">方差$\sigma^2$为:</td>
+<td style="text-align:center">$\frac {6.25+6.25+6.25+6.25}{4}=\color{red}{6.25}$</td>
 </tr>
 </tbody>
 </table>
-<h3 id="样本方差">样本方差</h3>
-<p><span class="math display">\[
- S_n^2= \frac {\sum_{i=1}^{n} {(x_i-\bar{X})}^2}{n-1}
-\]</span></p>
+<h3 id="样本方差"><a href="#样本方差" class="headerlink" title="样本方差"></a>样本方差</h3><p>$$<br> S_n^2= \frac {\sum_{i=1}^{n} {(x_i-\bar{X})}^2}{n-1}<br>$$</p>
 <blockquote>
 <p>样本方差和总体方差的明显区别是除数再减一</p>
 </blockquote>
-<h3 id="标准差">标准差</h3>
-<p>标准差<span class="math inline">\(\mu\)</span>是表述数据和均值之间的偏离程度的另一个重要标志，它等于方差的平方根。</p>
-<h3 id="诸方差公式">诸方差公式</h3>
-<p><span class="math display">\[
-\require{cancel}\begin{array}{rl}
- \sigma^2 &amp;=&amp; \frac {\sum_{i=1}^N {(x_i-\mu)}^2}{N} \\
-           &amp;=&amp; \frac {\sum_{i=1}^N {(x_i^2-2x_i{\mu}+{\mu^2})}}{N} \\
-           &amp;=&amp; \frac {\sum_{i=1}^N x_i^2 - 2\mu{\sum_{i=1}^N x_i} + \mu^2{\sum_{i=1}^N 1}}{N} \\
-           &amp;=&amp; \frac {\sum_{i=1}^N x_i^2}{N} - \frac {2\mu\sum_{i=1}^N x_i}{N} + \frac{\mu^2\cdot{N}}{N} \\
-           &amp;=&amp; \frac {\sum_{i=1}^N x_i^2}{N} - 2\mu\cdot\frac {\sum_{i=1}^N x_i}{N} + \frac{\mu^2\cdot{\bcancel{N}}}{\bcancel{N}} \\
-           &amp;=&amp; \frac {\sum_{i=1}^N x_i^2}{N} - 2\mu\cdot\mu + \mu^2 \\
-           &amp;=&amp; \large{\color{fuchsia}{\frac {\sum_{i=1}^N x_i^2}{N} - \mu^2}} \\
-\end{array}
-\]</span></p>
+<h3 id="标准差"><a href="#标准差" class="headerlink" title="标准差"></a>标准差</h3><p>标准差$\mu$是表述数据和均值之间的偏离程度的另一个重要标志，它等于方差的平方根。</p>
+<h3 id="诸方差公式"><a href="#诸方差公式" class="headerlink" title="诸方差公式"></a>诸方差公式</h3><p>$$<br>\require{cancel}\begin{array}{rl}<br> \sigma^2 &amp;=&amp; \frac {\sum_{i=1}^N {(x_i-\mu)}^2}{N} \<br>           &amp;=&amp; \frac {\sum_{i=1}^N {(x_i^2-2x_i{\mu}+{\mu^2})}}{N} \<br>           &amp;=&amp; \frac {\sum_{i=1}^N x_i^2 - 2\mu{\sum_{i=1}^N x_i} + \mu^2{\sum_{i=1}^N 1}}{N} \<br>           &amp;=&amp; \frac {\sum_{i=1}^N x_i^2}{N} - \frac {2\mu\sum_{i=1}^N x_i}{N} + \frac{\mu^2\cdot{N}}{N} \<br>           &amp;=&amp; \frac {\sum_{i=1}^N x_i^2}{N} - 2\mu\cdot\frac {\sum_{i=1}^N x_i}{N} + \frac{\mu^2\cdot{\bcancel{N}}}{\bcancel{N}} \<br>           &amp;=&amp; \frac {\sum_{i=1}^N x_i^2}{N} - 2\mu\cdot\mu + \mu^2 \<br>           &amp;=&amp; \large{\color{fuchsia}{\frac {\sum_{i=1}^N x_i^2}{N} - \mu^2}} \<br>\end{array}<br>$$</p>
 <hr>
 
           
@@ -620,43 +588,25 @@
         
           
             <p>第一次用<a href="https://hexo.io" target="_blank" rel="noopener">Hexo</a>来写博客，使用的是<a href="http://theme-next.iissnan.com" target="_blank" rel="noopener">Next</a>主题，以及night bright的代码高亮样式，最主要是要试试是不是支持LaTeX排版的数学公式。</p>
-<h2 id="快速开始">快速开始</h2>
-<h3 id="安装hexo">安装Hexo</h3>
-<figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ npm install -g hexo-cli</span><br></pre></td></tr></table></figure>
-<h3 id="安装博客">安装博客</h3>
-<figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">$ hexo init blog</span><br><span class="line">$ <span class="built_in">cd</span> blog</span><br><span class="line">$ npm install</span><br></pre></td></tr></table></figure>
-<h3 id="开启服务">开启服务</h3>
-<p>代码1: <figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br></pre></td><td class="code"><pre><span class="line">\begin&#123;aligned&#125;</span><br><span class="line">f_Y(y) &amp; = f_X[h(y)]|h<span class="string">'(y)| \\[2ex]</span></span><br><span class="line"><span class="string">&amp; = f_X[h(y)]h'</span>(y) \\[2ex]</span><br><span class="line">&amp; = \frac&#123;1&#125;&#123;\theta&#125;e^&#123;-\frac&#123;x&#125;&#123;\theta&#125;&#125;[\frac&#123;dx&#125;&#123;dy&#125;(-\frac&#123;\theta&#125;&#123;ln(1-y)&#125;)] \\[2ex]</span><br><span class="line">&amp; = \frac&#123;1&#125;&#123;\theta&#125;e^&#123;-\frac&#123;-\frac&#123;\theta&#125;&#123;ln(1-y)&#125;&#125;&#123;\theta&#125;&#125;\frac&#123;\theta&#125;&#123;1-y&#125; \\[2ex]</span><br><span class="line">&amp; = \frac&#123;1&#125;&#123;\theta&#125;e^&#123;ln(1-y)&#125;\frac&#123;\theta&#125;&#123;1-y&#125; \\[2ex]</span><br><span class="line">&amp; = \frac&#123;1-y&#125;&#123;\theta&#125;\frac&#123;\theta&#125;&#123;1-y&#125; \\[2ex]</span><br><span class="line">&amp; = 1</span><br><span class="line">\end&#123;aligned&#125;</span><br></pre></td></tr></table></figure></p>
-<p>\begin{aligned} f_Y(y) &amp; = f_X[h(y)]|h'(y)| \[2ex] &amp; = f_X[h(y)]h'(y) \[2ex] &amp; = e^{-}[(-)] \[2ex] &amp; = e^{-} \[2ex] &amp; = e^{ln(1-y)} \[2ex] &amp; =  \[2ex] &amp; = 1 \end{aligned}</p>
+<h2 id="快速开始"><a href="#快速开始" class="headerlink" title="快速开始"></a>快速开始</h2><h3 id="安装Hexo"><a href="#安装Hexo" class="headerlink" title="安装Hexo"></a>安装Hexo</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ npm install -g hexo-cli</span><br></pre></td></tr></table></figure>
+<h3 id="安装博客"><a href="#安装博客" class="headerlink" title="安装博客"></a>安装博客</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">$ hexo init blog</span><br><span class="line">$ <span class="built_in">cd</span> blog</span><br><span class="line">$ npm install</span><br></pre></td></tr></table></figure>
+<h3 id="开启服务"><a href="#开启服务" class="headerlink" title="开启服务"></a>开启服务</h3><p>代码1:<br><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br></pre></td><td class="code"><pre><span class="line">\begin&#123;aligned&#125;</span><br><span class="line">f_Y(y) &amp; = f_X[h(y)]|h<span class="string">'(y)| \\[2ex]</span></span><br><span class="line"><span class="string">&amp; = f_X[h(y)]h'</span>(y) \\[2ex]</span><br><span class="line">&amp; = \frac&#123;1&#125;&#123;\theta&#125;e^&#123;-\frac&#123;x&#125;&#123;\theta&#125;&#125;[\frac&#123;dx&#125;&#123;dy&#125;(-\frac&#123;\theta&#125;&#123;ln(1-y)&#125;)] \\[2ex]</span><br><span class="line">&amp; = \frac&#123;1&#125;&#123;\theta&#125;e^&#123;-\frac&#123;-\frac&#123;\theta&#125;&#123;ln(1-y)&#125;&#125;&#123;\theta&#125;&#125;\frac&#123;\theta&#125;&#123;1-y&#125; \\[2ex]</span><br><span class="line">&amp; = \frac&#123;1&#125;&#123;\theta&#125;e^&#123;ln(1-y)&#125;\frac&#123;\theta&#125;&#123;1-y&#125; \\[2ex]</span><br><span class="line">&amp; = \frac&#123;1-y&#125;&#123;\theta&#125;\frac&#123;\theta&#125;&#123;1-y&#125; \\[2ex]</span><br><span class="line">&amp; = 1</span><br><span class="line">\end&#123;aligned&#125;</span><br></pre></td></tr></table></figure></p>
+<p>\begin{aligned}<br>f_Y(y) &amp; = f_X[h(y)]|h’(y)| \[2ex]<br>&amp; = f_X[h(y)]h’(y) \[2ex]<br>&amp; = \frac{1}{\theta}e^{-\frac{x}{\theta}}[\frac{dx}{dy}(-\frac{\theta}{ln(1-y)})] \[2ex]<br>&amp; = \frac{1}{\theta}e^{-\frac{-\frac{\theta}{ln(1-y)}}{\theta}}\frac{\theta}{1-y} \[2ex]<br>&amp; = \frac{1}{\theta}e^{ln(1-y)}\frac{\theta}{1-y} \[2ex]<br>&amp; = \frac{1-y}{\theta}\frac{\theta}{1-y} \[2ex]<br>&amp; = 1<br>\end{aligned}</p>
 <p>More info: <a href="https://hexo.io/docs/server.html" target="_blank" rel="noopener">Server</a></p>
-<h3 id="数学公式1">数学公式1</h3>
-<figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">\\[J_\alpha(x) = \sum_&#123;m=0&#125;^\infty \frac&#123;(-1)^m&#125;&#123;m! \Gamma (m + \alpha + 1)&#125; &#123;\left(&#123; \frac&#123;x&#125;&#123;2&#125; &#125;\right)&#125;^&#123;2m + \alpha&#125;\\]</span><br></pre></td></tr></table></figure>
-<p>\[J_(x) = _{m=0}<sup></sup>{2m + }\]</p>
+<h3 id="数学公式1"><a href="#数学公式1" class="headerlink" title="数学公式1"></a>数学公式1</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">\\[J_\alpha(x) = \sum_&#123;m=0&#125;^\infty \frac&#123;(-1)^m&#125;&#123;m! \Gamma (m + \alpha + 1)&#125; &#123;\left(&#123; \frac&#123;x&#125;&#123;2&#125; &#125;\right)&#125;^&#123;2m + \alpha&#125;\\]</span><br></pre></td></tr></table></figure>
+<p>\[J_\alpha(x) = \sum_{m=0}^\infty \frac{(-1)^m}{m! \Gamma (m + \alpha + 1)} {\left({ \frac{x}{2} }\right)}^{2m + \alpha}\]</p>
 <p>More info: <a href="https://hexo.io/docs/generating.html" target="_blank" rel="noopener">Generating</a></p>
-<h3 id="数学公式2">数学公式2</h3>
-<p>代码： <figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br></pre></td><td class="code"><pre><span class="line">$$</span><br><span class="line">\begin&#123;displaymath&#125; \mathop&#123;\mathrm&#123;corr&#125;&#125;(X,Y)= \frac&#123;\displaystyle</span><br><span class="line"></span><br><span class="line">\sum_&#123;i=1&#125;^n(x_i-\overline x)</span><br><span class="line"></span><br><span class="line">(y_i-\overline y)&#125;</span><br><span class="line"></span><br><span class="line">&#123;\displaystyle\biggl[ \sum_&#123;i=1&#125;^n(x_i-\overline x)^2 \sum_&#123;i=1&#125;^n(y_i-\overline y)^2 \biggr]^&#123;1/2&#125;&#125; \end&#123;displaymath&#125;</span><br><span class="line">$$</span><br></pre></td></tr></table></figure></p>
-<p>$$  $$</p>
+<h3 id="数学公式2"><a href="#数学公式2" class="headerlink" title="数学公式2"></a>数学公式2</h3><p>代码：<br><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br></pre></td><td class="code"><pre><span class="line">$$</span><br><span class="line">\begin&#123;displaymath&#125; \mathop&#123;\mathrm&#123;corr&#125;&#125;(X,Y)= \frac&#123;\displaystyle</span><br><span class="line"></span><br><span class="line">\sum_&#123;i=1&#125;^n(x_i-\overline x)</span><br><span class="line"></span><br><span class="line">(y_i-\overline y)&#125;</span><br><span class="line"></span><br><span class="line">&#123;\displaystyle\biggl[ \sum_&#123;i=1&#125;^n(x_i-\overline x)^2 \sum_&#123;i=1&#125;^n(y_i-\overline y)^2 \biggr]^&#123;1/2&#125;&#125; \end&#123;displaymath&#125;</span><br><span class="line">$$</span><br></pre></td></tr></table></figure></p>
+<p>$$<br>\begin{displaymath} \mathop{\mathrm{corr}}(X,Y)= \frac{\displaystyle</p>
+<p>\sum_{i=1}^n(x_i-\overline x)</p>
+<p>(y_i-\overline y)}</p>
+<p>{\displaystyle\biggl[ \sum_{i=1}^n(x_i-\overline x)^2 \sum_{i=1}^n(y_i-\overline y)^2 \biggr]^{1/2}} \end{displaymath}<br>$$</p>
 <p>More info: <a href="https://hexo.io/docs/deployment.html" target="_blank" rel="noopener">Deployment</a></p>
-<h3 id="矩阵">矩阵</h3>
-<p>代码： <figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br></pre></td><td class="code"><pre><span class="line">$$</span><br><span class="line">  \begin&#123;bmatrix&#125;</span><br><span class="line">   cos(\theta) &amp; -sin(\theta)</span><br><span class="line">   sin(\theta) &amp; cos(\theta)</span><br><span class="line">  \end&#123;bmatrix&#125; \tag&#123;2&#125;</span><br><span class="line">$$</span><br></pre></td></tr></table></figure></p>
-<p><span class="math display">\[
-  \begin{bmatrix}
-   cos(\theta) &amp; -sin(\theta)
-   sin(\theta) &amp; cos(\theta)
-  \end{bmatrix} \tag{2}
-\]</span></p>
-<h3 id="再试试inline的公式比如">再试试inline的公式，比如：$  $</h3>
-<p>代码： <figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ \sqrt[4]&#123;\frac &#123;x&#125;&#123;y&#125;&#125; $</span><br></pre></td></tr></table></figure></p>
-<h3 id="麦克斯韦方程组">麦克斯韦方程组</h3>
-<p>代码： <figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br></pre></td><td class="code"><pre><span class="line">$$</span><br><span class="line">\begin&#123;eqnarray&#125;</span><br><span class="line">\nabla\cdot\vec&#123;E&#125; &amp;=&amp; \frac&#123;\rho&#125;&#123;\epsilon_0&#125; \\</span><br><span class="line">\nabla\cdot\vec&#123;B&#125; &amp;=&amp; 0 \\</span><br><span class="line">\nabla\<span class="built_in">times</span>\vec&#123;E&#125; &amp;=&amp; -\frac&#123;\partial B&#125;&#123;\partial t&#125; \\</span><br><span class="line">\nabla\<span class="built_in">times</span>\vec&#123;B&#125; &amp;=&amp; \mu_0\left(\vec&#123;J&#125;+\epsilon_0\frac&#123;\partial E&#125;&#123;\partial t&#125; \right)</span><br><span class="line">\end&#123;eqnarray&#125;</span><br><span class="line">$$</span><br></pre></td></tr></table></figure></p>
-<p><span class="math display">\[
-\begin{eqnarray}
-\nabla\cdot\vec{E} &amp;=&amp; \frac{\rho}{\epsilon_0} \\
-\nabla\cdot\vec{B} &amp;=&amp; 0 \\
-\nabla\times\vec{E} &amp;=&amp; -\frac{\partial B}{\partial t} \\
-\nabla\times\vec{B} &amp;=&amp; \mu_0\left(\vec{J}+\epsilon_0\frac{\partial E}{\partial t} \right)
-\end{eqnarray}
-\]</span></p>
+<h3 id="矩阵"><a href="#矩阵" class="headerlink" title="矩阵"></a>矩阵</h3><p>代码：<br><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br></pre></td><td class="code"><pre><span class="line">$$</span><br><span class="line">  \begin&#123;bmatrix&#125;</span><br><span class="line">   cos(\theta) &amp; -sin(\theta)</span><br><span class="line">   sin(\theta) &amp; cos(\theta)</span><br><span class="line">  \end&#123;bmatrix&#125; \tag&#123;2&#125;</span><br><span class="line">$$</span><br></pre></td></tr></table></figure></p>
+<p>$$<br>  \begin{bmatrix}<br>   cos(\theta) &amp; -sin(\theta)<br>   sin(\theta) &amp; cos(\theta)<br>  \end{bmatrix} \tag{2}<br>$$</p>
+<h3 id="再试试inline的公式，比如：-sqrt-4-frac-x-y"><a href="#再试试inline的公式，比如：-sqrt-4-frac-x-y" class="headerlink" title="再试试inline的公式，比如：$ \sqrt[4]{\frac {x}{y}} $"></a>再试试inline的公式，比如：$ \sqrt[4]{\frac {x}{y}} $</h3><p>代码：<br><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ \sqrt[4]&#123;\frac &#123;x&#125;&#123;y&#125;&#125; $</span><br></pre></td></tr></table></figure></p>
+<h3 id="麦克斯韦方程组"><a href="#麦克斯韦方程组" class="headerlink" title="麦克斯韦方程组"></a>麦克斯韦方程组</h3><p>代码：<br><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br></pre></td><td class="code"><pre><span class="line">$$</span><br><span class="line">\begin&#123;eqnarray&#125;</span><br><span class="line">\nabla\cdot\vec&#123;E&#125; &amp;=&amp; \frac&#123;\rho&#125;&#123;\epsilon_0&#125; \\</span><br><span class="line">\nabla\cdot\vec&#123;B&#125; &amp;=&amp; 0 \\</span><br><span class="line">\nabla\<span class="built_in">times</span>\vec&#123;E&#125; &amp;=&amp; -\frac&#123;\partial B&#125;&#123;\partial t&#125; \\</span><br><span class="line">\nabla\<span class="built_in">times</span>\vec&#123;B&#125; &amp;=&amp; \mu_0\left(\vec&#123;J&#125;+\epsilon_0\frac&#123;\partial E&#125;&#123;\partial t&#125; \right)</span><br><span class="line">\end&#123;eqnarray&#125;</span><br><span class="line">$$</span><br></pre></td></tr></table></figure></p>
+<p>$$<br>\begin{eqnarray}<br>\nabla\cdot\vec{E} &amp;=&amp; \frac{\rho}{\epsilon_0} \<br>\nabla\cdot\vec{B} &amp;=&amp; 0 \<br>\nabla\times\vec{E} &amp;=&amp; -\frac{\partial B}{\partial t} \<br>\nabla\times\vec{B} &amp;=&amp; \mu_0\left(\vec{J}+\epsilon_0\frac{\partial E}{\partial t} \right)<br>\end{eqnarray}<br>$$</p>
 
           
         
